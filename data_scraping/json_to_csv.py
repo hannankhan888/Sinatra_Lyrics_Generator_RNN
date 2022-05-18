@@ -4,7 +4,7 @@ import os
 import re
 import pickle
 
-data_path = r'data'
+data_path = r'..\data'
 filename = 'Lyrics_FrankSinatra'
 replacements_filepath = os.sep.join([data_path, 'replacements_dict.pkl'])
 json_filepath = os.sep.join([data_path, filename + '.json'])

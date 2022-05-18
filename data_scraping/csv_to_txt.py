@@ -1,7 +1,7 @@
 import os
 import csv
 
-data_path = r'data'
+data_path = r'..\data'
 filename = 'Lyrics_FrankSinatra'
 txt_filepath = os.sep.join([data_path, filename + '.txt'])
 csv_filepath = os.sep.join([data_path, filename + '.csv'])
